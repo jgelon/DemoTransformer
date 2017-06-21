@@ -1,0 +1,15 @@
+bin/
+lib/
+target/
+.metadata/
+.idea/
+.gradle/
+*.iml
+*.class
+*.log*
+.sonarlint/
+clientdb.xml
+*.json
+deploy.py
+build
+
