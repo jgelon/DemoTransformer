@@ -1,14 +1,4 @@
-/*
- * Copyright 2016 ProRail & Nederlandse Spoorwegen N.V.
- *
- * Broncode en het daarin voorkomende intellectueel eigendom
- * behoren toe aan ProRail en Nederlandse Spoorwegen N.V.
- * Gebruik en/of publicatie in welke (afgeleide) vorm en wijze dan ook
- * zijn zonder voorafgaande schriftelijke toestemming niet toegestaan.
- *
- * Created 13 apr. 2016
- */
-package nl.ns.donna.transformerdemo.transformer;
+package nl.demo.transformers.transformer;
 
 
 import cucumber.api.Transformer;
@@ -16,7 +6,7 @@ import edu.umd.cs.findbugs.annotations.CheckReturnValue;
 import edu.umd.cs.findbugs.annotations.DefaultAnnotation;
 import edu.umd.cs.findbugs.annotations.DefaultAnnotationForMethods;
 import edu.umd.cs.findbugs.annotations.NonNull;
-import nl.ns.donna.transformerdemo.model.InfraGebruiker;
+import nl.demo.transformers.model.InfraGebruiker;
 import org.apache.commons.lang3.StringUtils;
 
 /**

@@ -1,16 +1,20 @@
-package nl.ns.donna.transformerdemo;
+package nl.demo.transformers;
 
 import cucumber.api.Transform;
 import cucumber.api.java.nl.Dan;
 import cucumber.api.java.nl.Stel;
-import nl.ns.donna.transformerdemo.model.InfraGebruiker;
-import nl.ns.donna.transformerdemo.transformer.InfraGebruikerTransformer;
+import nl.demo.transformers.model.InfraGebruiker;
+import nl.demo.transformers.transformer.InfraGebruikerTransformer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
+/**
+ * @author Jurn van Mieghem
+ *
+ */
 public class InfragebruikerSteps {
 
     private Logger log = LogManager.getLogger(InfragebruikerSteps.class);

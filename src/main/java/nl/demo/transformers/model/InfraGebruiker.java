@@ -1,14 +1,4 @@
-/*
- * Copyright 2016 ProRail & Nederlandse Spoorwegen N.V.
- *
- * Broncode en het daarin voorkomende intellectueel eigendom
- * behoren toe aan ProRail en Nederlandse Spoorwegen N.V.
- * Gebruik en/of publicatie in welke (afgeleide) vorm en wijze dan ook
- * zijn zonder voorafgaande schriftelijke toestemming niet toegestaan.
- *
- * Created 14 apr. 2016
- */
-package nl.ns.donna.transformerdemo.model;
+package nl.demo.transformers.model;
 
 import nl.donna.generiek.common.dto.Valideer;
 
@@ -16,9 +6,9 @@ import edu.umd.cs.findbugs.annotations.DefaultAnnotation;
 import edu.umd.cs.findbugs.annotations.NonNull;
 
 /**
- * Dit zijn de ondersteunde InfraGebruikers in Cucumber: {@link InfraGebruiker#NSR}, {@link InfraGebruiker#HSP}, {@link InfraGebruiker#NSI}
+ * Dit zijn de ondersteunde InfraGebruikers in Cucumber
  *
- * @author xavier.wolfs
+ * @author Jurn van Mieghem
  *
  */
 @DefaultAnnotation(NonNull.class)
